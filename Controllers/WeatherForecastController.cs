@@ -35,5 +35,11 @@ namespace WebApplication4.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        [Route("GetAllDetails")]
+        public string GetAllDetails()
+        {
+            return "Welcome to my api DISHANI";
+        }
     }
 }
